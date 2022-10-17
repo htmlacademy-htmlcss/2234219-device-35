@@ -9,16 +9,16 @@
 
 <body>
 	<header class="page-header">
-        <!--Нужны ли оберточные контейнеры?-->
 		<a class="header-logo">
+            <!--Удалил атрибут href-->
 			<img class="header-logo-image" src="#" alt="Логотип сайта Девайс">
 		</a>
         <form class="header-finder" action="https://echo.htmlacademy.ru/" method="get">
             <label class="visually-hidden">Поиск по Сайту
                 <input class="header-search" type="search" placeholder="Поиск по сайту">
             </label>
-            <!--В таком случае нужен ли label для кнопки? Читает ли скринридер value?-->
             <input class="header-btn" type="button" value="Найти">
+            <!--В таком случае нужен ли label для кнопки? Читает ли скринридер value?-->
         </form>
 
         <nav class="header-navigation">
@@ -75,12 +75,14 @@
                 <button class="card-btn" type="button">Подробнее</button>
                 <table class="card-table">
                     <tr class="table-head">
-                        <th>800 м</th>
-                        <th>50 м</th>
+                        <!--Добавил классы-->
+                        <th class="table-title">800 м</th>
+                        <th class="table-title">50 м</th>
                     </tr>
                     <tr class="table-description">
-                        <td>Дальность полета</td>
-                        <td>Радиус поражения</td>
+                        <!--И сюда добавил-->
+                        <td class="table-paragraph">Дальность полета</td>
+                        <td class="table-paragraph">Радиус поражения</td>
                     </tr>
                 </table>
             </section>
@@ -167,7 +169,7 @@
                 мы неплохо заработаем, поднимая его на ваш этаж.</p>
             <img class="services-image" src="#" alt="Бегущий человек">
 
-            <!--Точно ли эта ссылка в блоке, а не отдельно?-->
+            <!--Оставляю пока так тогда)-->
             <a class="services-link">
                 <img class="services-icon" src="#" alt="Грузовик">
                 <span class="services-caption">Доставим редкий товар под заказ</span>
@@ -209,7 +211,10 @@
             спецпредложения и вот это вот всё.</p>
 
             <form action="https://echo.htmlacademy.ru/" method="get">
-                <input class="mailing-address" type="email" name="email" placeholder="Ваш e-mail">
+                <label class="visually-hidden">Введите ваш e-meil
+                    <input class="mailing-address" type="email" name="email" placeholder="Ваш e-mail">
+                </label>
+                <!--Добавил label-->
                 <input class="mailing-subscribe" type="button" name="subscribe" value="Подписаться">
             </form>
 
@@ -269,5 +274,6 @@
             <img class="html-logo" src="#" alt="Логотип html-academy">
         </a>
     </footer>
+    <!--Ну и текст удалил конечно)-->
 </body>
 </html>
