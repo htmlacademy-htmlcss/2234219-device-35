@@ -10,37 +10,51 @@
 <body>
 	<header class="page-header">
 		<a class="header-logo">
-            <!--Удалил атрибут href-->
-			<img class="header-logo-image" src="#" alt="Логотип сайта Девайс">
+			<img class="header-logo-image" src="images/header/logo.png" width="145" height="36" alt="Логотип сайта Девайс">
 		</a>
         <form class="header-finder" action="https://echo.htmlacademy.ru/" method="get">
             <label>
+                <!--Нужно ли и для таких иконок заполнять width и height? alt не трогаю, так как
+                смысла вроде нет, верно же?-->
+                <img src="images/icons/find-icon.svg" width="" height="" alt="">
                 <span class="visually-hidden">Поиск по сайту</span>
                 <input class="header-search" type="search" placeholder="Поиск по сайту">
             </label>
             <input class="header-btn" type="button" value="Найти">
-            <!--В таком случае нужен ли label для кнопки? Читает ли скринридер value?-->
         </form>
 
         <nav class="header-navigation">
             <ul class="navigation-user">
                 <li class="navigation-item">
-                    <a class="navigation-link" href="#">Войти</a>
+                    <a class="navigation-link" href="#">
+                        <img src="images/icons/come-in-icon.svg" alt="">
+                        <!--Нужел ли span для текста в ссылках? -->
+                        Войти
+                    </a>
                 </li>
                 <li class="navigation-item">
                     <a class="navigation-link" href="#">Выйти</a>
                 </li>
                 <li class="navigation-item">
-                    <a class="navigation-link" href="#">Сравнить</a>
+                    <a class="navigation-link" href="#">
+                        <img src="images/icons/compare-icon.svg" alt="">
+                        Сравнить
+                    </a>
                 </li>
                 <li class="navigation-item">
-                    <a class="navigation-link" href="#">Корзина</a>
+                    <a class="navigation-link" href="#">
+                        <img src="images/icons/basket-icon.svg" alt="">
+                        Корзина
+                    </a>
                 </li>
             </ul>
 
             <ul class="navigation-list">
                 <li class="navigation-list-item">
-                    <a class="navigation-list-link" href="#">Каталог товаров</a>
+                    <a class="navigation-list-link" href="#">
+                        Каталог товаров
+                        <img src="images/icons/plus-icon.svg" alt="">
+                    </a>
                 </li>
                 <li class="navigation-list-item">
                     <a class="navigation-list-link" href="#delivery">Доставка</a>
