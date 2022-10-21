@@ -41,6 +41,7 @@
                 </li>
                 <li class="navigation-item">
                     <a class="navigation-link" href="#">
+                        <!--В макете есть ещё иконка с кол-вом товаров. Как понимаю, её грузить не надо же?-->
                         <img src="images/icons/basket-icon.svg" width="16" height="14" alt="">
                         Корзина
                     </a>
@@ -72,11 +73,13 @@
         <section class="slider">
             <h2 class="slider-title visually-hidden">Слайдер страницы Девайс</h2>
 
-            <img class="slider-image" src="#" alt="Фотография товара">
+            <img class="slider-image" src="images/main/slider/slider-1.png" width="560" height="560" alt="Фотография товара">
             <button class="slider-button button-prev">
+                <img src="images/main/slider/slider-prev-arrow.svg" width="20" height="60" alt="">
                 <span class="visually-hidden">Предыдущее фото</span>
             </button>
             <button class="slider-button button-next">
+                <img src="images/main/slider/slider-next-arrow.svg" width="20" height="60" alt="">
                 <span class="visually-hidden">Следующее фото</span>
             </button>
 
@@ -88,12 +91,10 @@
                 <button class="card-btn" type="button">Подробнее</button>
                 <table class="card-table">
                     <tr class="table-head">
-                        <!--Добавил классы-->
                         <th class="table-title">800 м</th>
                         <th class="table-title">50 м</th>
                     </tr>
                     <tr class="table-description">
-                        <!--И сюда добавил-->
                         <td class="table-paragraph">Дальность полета</td>
                         <td class="table-paragraph">Радиус поражения</td>
                     </tr>
@@ -124,37 +125,37 @@
             <ul class="products-list">
                 <li class="products-item">
                     <a class="products-link" href="#">
-                        <img class="products-photo" src="#" alt="Изображение товара">
+                        <img class="products-photo" src="images/main/products/products-vr.svg" width="97" height="55" alt="Изображение товара">
                         <p class="products-subtext">Виртуальная реальность</p>
                     </a>
                 </li>
                 <li class="products-item">
                     <a class="products-link" href="catalog.html">
-                        <img class="products-photo" src="#" alt="Изображение товара">
+                        <img class="products-photo" src="images/main/products/products-monopode.svg" width="86" height="117" alt="Изображение товара">
                         <p class="products-subtext">Моноподы для селфи</p>
                     </a>
                 </li>
                 <li class="products-item">
                     <a class="products-link" href="#">
-                        <img class="products-photo" src="#" alt="Изображение товара">
+                        <img class="products-photo" src="images/main/products/products-action-cameras.svg" width="71" height="87" alt="Изображение товара">
                         <p class="products-subtext">Экшн-камеры</p>
                     </a>
                 </li>
                 <li class="products-item">
                     <a class="products-link" href="#">
-                        <img class="products-photo" src="#" alt="Изображение товара">
+                        <img class="products-photo" src="images/main/products/products-bracelets.svg" width="107" height="65" alt="Изображение товара">
                         <p class="products-subtext">Фитнес-браслеты</p>
                     </a>
                 </li>
                 <li class="products-item">
                     <a class="products-link" href="#">
-                        <img class="products-photo" src="#" alt="Изображение товара">
+                        <img class="products-photo" src="images/main/products/products-watches.svg" width="56" height="98" alt="Изображение товара">
                         <p class="products-subtext">Умные часы</p>
                     </a>
                 </li>
                 <li class="products-item">
                     <a class="products-link" href="#">
-                        <img class="products-photo" src="#" alt="Изображение товара">
+                        <img class="products-photo" src="images/main/products/products-copters.svg" width="132" height="69" alt="Изображение товара">
                         <p class="products-subtext">Квадрокоптеры</p>
                     </a>
                 </li>
@@ -180,19 +181,24 @@
                 Мы с удовольствием доставим ваш товар прямо<br>
                 к вашему подъезду совершенно бесплатно! Ведь<br>
                 мы неплохо заработаем, поднимая его на ваш этаж.</p>
-            <img class="services-image" src="#" alt="Бегущий человек">
+            <img class="services-image" src="images/main/courier.svg" width="136" height="164" alt="Бегущий человек">
 
             <!--Оставляю пока так тогда)-->
             <a class="services-link">
-                <img class="services-icon" src="#" alt="Грузовик">
+                <img class="services-icon" src="images/main/truck.svg" width="47" height="31" alt="Грузовик">
                 <span class="services-caption">Доставим редкий товар под заказ</span>
+                <!--Есть ли в этом смысл?-->
+                <img class="services-info-icon" src="images/main/info-icon.svg" width="2" height="12" alt="">
+                <!--
                 <span class="services-info">i</span>
+                -->
             </a>
         </section>
 
         <section class="about-contacts">
             <h2 class="about-contacts-title visually-hidden">О нас и Контакты</h2>
             <div class="about">
+                <img class="black-line" src="images/main/black-line.svg" width="84" height="7" alt="">
                 <h3 class="about-title">О нас</h3>
                 <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
                 <p>Мы можем доставить ваш товар в самые отдалённые уголки России транспортными компаниями:</p>
@@ -205,6 +211,7 @@
             </div>
 
             <div class="contacts">
+                <img class="black-line" src="images/main/black-line.svg" width="84" height="7" alt="">
                 <h3 class="contacts-title">Контакты</h3>
                 <p>Вы можете забрать товар сами, заехав в наш офис. Заодно сможете проверить работоспособность покупки.</p>
                 <h4 class="contacts-subtitle">Интернет-магазин «Девайс»</h4>
@@ -232,7 +239,7 @@
             </form>
 
             <p class="clarification">
-                <img src="#" alt="Зеленая галочка">
+                <img class="clarification-green-mark" src="images/main/green-mark.svg" width="14" height="14" alt="Зеленая галочка">
                 Это бесплатно
             </p>
         </section>
